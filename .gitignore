@@ -2,7 +2,6 @@
 # 이 .gitignore 파일은 Microsoft(R) Visual Studio에서 자동으로 만들어졌습니다.
 ################################################################################
 
-/Project_study/.vs/Project_study/FileContentIndex
-/Project_study/.vs/Project_study/CopilotIndices/17.13.431.34963
-/Project_study/.vs/Project_study/v17/ipch/AutoPCH
+/Project_study/.vs/Project_study/FileContentIndex/
+/Project_study/.vs/Project_study/CopilotIndices/
 /Project_study/.vs/Project_study/v17/

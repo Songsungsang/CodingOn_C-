@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int day2() {
+int day2_2() {
 	int a = 10;
 	a = a + 5;
 	a += 5;

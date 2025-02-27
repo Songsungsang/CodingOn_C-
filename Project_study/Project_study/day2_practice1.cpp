@@ -5,7 +5,7 @@
 #include <iostream>
 using namespace std;
 
-int main() {
+int day2_practice1() {
 	string name;
 	int age;
 
