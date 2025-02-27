@@ -32,5 +32,6 @@ int main() {
 	//비트제거
 	cout << bitset<4>(f & ~(1 << 1)) << endl; // and와 not을 같이 사용
 
+
 	return 0;
 }
