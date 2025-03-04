@@ -2,7 +2,7 @@
 #include <bitset>
 using namespace std;
 
-int main() {
+int bit_calculation() {
 	// & (and) 비트 연산에서는 & 한개만 사용
 	//int a = 0b0101; // 5
 	//int b = 0b1001; // 9
