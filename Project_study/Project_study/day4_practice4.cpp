@@ -9,7 +9,7 @@
 #include <iostream>
 using namespace std;
 
-int main() {
+int while_add() {
 	int num = 1, total = 0;
 
 	cout << "사용자가 입력한 숫자 더하기" << endl << endl;
