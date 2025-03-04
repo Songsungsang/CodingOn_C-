@@ -131,7 +131,12 @@
     <ClCompile Include="day2_2.cpp" />
     <ClCompile Include="day2_bit_calculation.cpp" />
     <ClCompile Include="day2_practice1.cpp" />
+    <ClCompile Include="day3_practice7.cpp" />
+    <ClCompile Include="day3_practice8.cpp" />
     <ClCompile Include="day3_remind.cpp" />
+    <ClCompile Include="day4_array.cpp" />
+    <ClCompile Include="day4_array_practice2.cpp" />
+    <ClCompile Include="day4_array_practice3.cpp" />
     <ClCompile Include="day4_for_while_loop.cpp" />
     <ClCompile Include="day4_practice1.cpp" />
     <ClCompile Include="day4_practice2.cpp" />
