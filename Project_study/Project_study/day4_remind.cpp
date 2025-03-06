@@ -19,4 +19,5 @@ int day4_revise() {
 		break;
 	}
 
+	return 0;
 }
