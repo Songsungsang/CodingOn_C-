@@ -40,4 +40,6 @@ int day6_main() {
 	cout << "Global: " << fileGlobalVar << endl; // 변수가 유지됨
 
 	cout << "진짜 전역 변수: " << realGlobalVar << endl;
+
+	return 0;
 }
