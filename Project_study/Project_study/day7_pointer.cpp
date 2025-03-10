@@ -5,7 +5,7 @@ void coutFunc(const int* x) { // 바꿀 수 없는 const 값으로 둠
 	cout << "출력: " << *x << endl; // * = 역참조를 하겠다 = 메모리에 담긴 값을 보겠다
 }
 
-int main() {
+int day7_pointer() {
 	int i = 0; // 4바이트. 정수형으로 봄
 	float f = 3.14f; // 4바이트. 실수형으로 봄. 부동소수점 바라봄.
 	short s = 100; // 2바이트
