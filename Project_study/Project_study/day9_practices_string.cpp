@@ -4,7 +4,7 @@ using namespace std;
 
 bool isNumber(string str);
 
-int main() {
+int day9_practices() {
 	// 실습1. string 사용해보기
 	//1.s 문자열의 길이 출력
 	//2.100번째 문자 출력(index는 0부터 시작)
