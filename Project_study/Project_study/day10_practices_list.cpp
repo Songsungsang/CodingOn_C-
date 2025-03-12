@@ -2,7 +2,7 @@
 #include <list>
 using namespace std;
 
-int main() {
+int day10_practices_list() {
 	int fours = 0;
 	//실습1. list 사용해보기
 	//1. std::list<int> myList = { 5, 4, 3, 4, 2, 1, 1 };
