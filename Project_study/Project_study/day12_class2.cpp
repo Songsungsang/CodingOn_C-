@@ -47,7 +47,7 @@ public:
 	}
 };
 
-int main() {
+int day12_class2() {
 	//Counter c1, c2, c3;
 
 	//cout << "°´Ã¼ ¼ö: " << Counter::getCount() << endl;
