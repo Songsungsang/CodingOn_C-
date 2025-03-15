@@ -95,8 +95,8 @@ public:
 	}
 };
 
-//int day13_class3() {
-int main(){
+int day13_class3() {
+//int main(){
 	//Child kim;
 	//kim.showFamilyName();
 
