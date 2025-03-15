@@ -1,20 +1,20 @@
 #include <iostream>
 using namespace std;
 
-class Counter { // static int를 가진 클래스
-private:
-	static int count;
-public:
-	Counter() {
-		count++;
-	}
-
-	static int getCount() {
-		return count;
-	}
-};
-
-int Counter::count = 0; // 초기화 방법 - 외부에서 초기화
+//class Counter { // static int를 가진 클래스
+//private:
+//	static int count;
+//public:
+//	Counter() {
+//		count++;
+//	}
+//
+//	static int getCount() {
+//		return count;
+//	}
+//};
+//
+//int Counter::count = 0; // 초기화 방법 - 외부에서 초기화
 
 class Parent { // 상속을 위한 상위 클래스
 public:

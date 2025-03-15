@@ -45,79 +45,79 @@ using namespace std;
 //	}
 //};
 
-class Vehicle {
-protected:
-	int speed;
-public:
-	string brand;
-
-	Vehicle(string brand, int speed) {
-		this->brand = brand;
-		this->speed = speed;
-	}
-
-	void showInfo() {
-		cout << "브랜드: " << this->brand << endl;
-		cout << "속도: " << this->speed << endl;
-	}
-};
-
-class Car : public Vehicle {
-private:
-	int seats;
-public:
-	Car(string brand, int speed, int seats) : Vehicle(brand, speed) {
-		this->seats = seats;
-	}
-
-	void showSeats() {
-		cout << "좌석 갯수: " << this->seats << endl;
-	}
-};
-
-class Truck : public Vehicle {
-private:
-	int capacity;
-public:
-	Truck(string brand, int speed, int capacity) : Vehicle(brand, speed), capacity(capacity) {} // class 만이 아니라 변수도 위에서 선언
-
-	void showCapacity() {
-		cout << "적재용량(kg): " << this->capacity << endl;
-	}
-};
-
-class Shape {
-public:
-	int area(int side) {
-		return side * side;
-	}
-	int area(int width, int height) {
-		return width * height;
-	}
-	double area(double radius) {
-		return radius * radius * 3.14159;
-	}
-};
-
-class Point {
-private: // 같은 클래스 끼리는 private여도 조회가능
-	int x, y;
-public:
-
-	Point(int x, int y) : x(x), y(y){}
-
-	Point operator+(Point& other) {
-		return Point(this->x + other.x, this->y + other.y);
-	}
-
-	int showX() {
-		return this->x;
-	}
-
-	int showY() {
-		return this->y;
-	}
-};
+//class Vehicle {
+//protected:
+//	int speed;
+//public:
+//	string brand;
+//
+//	Vehicle(string brand, int speed) {
+//		this->brand = brand;
+//		this->speed = speed;
+//	}
+//
+//	void showInfo() {
+//		cout << "브랜드: " << this->brand << endl;
+//		cout << "속도: " << this->speed << endl;
+//	}
+//};
+//
+//class Car : public Vehicle {
+//private:
+//	int seats;
+//public:
+//	Car(string brand, int speed, int seats) : Vehicle(brand, speed) {
+//		this->seats = seats;
+//	}
+//
+//	void showSeats() {
+//		cout << "좌석 갯수: " << this->seats << endl;
+//	}
+//};
+//
+//class Truck : public Vehicle {
+//private:
+//	int capacity;
+//public:
+//	Truck(string brand, int speed, int capacity) : Vehicle(brand, speed), capacity(capacity) {} // class 만이 아니라 변수도 위에서 선언
+//
+//	void showCapacity() {
+//		cout << "적재용량(kg): " << this->capacity << endl;
+//	}
+//};
+//
+//class Shape {
+//public:
+//	int area(int side) {
+//		return side * side;
+//	}
+//	int area(int width, int height) {
+//		return width * height;
+//	}
+//	double area(double radius) {
+//		return radius * radius * 3.14159;
+//	}
+//};
+//
+//class Point {
+//private: // 같은 클래스 끼리는 private여도 조회가능
+//	int x, y;
+//public:
+//
+//	Point(int x, int y) : x(x), y(y){}
+//
+//	Point operator+(Point& other) {
+//		return Point(this->x + other.x, this->y + other.y);
+//	}
+//
+//	int showX() {
+//		return this->x;
+//	}
+//
+//	int showY() {
+//		return this->y;
+//	}
+//};
 
 int day13_practices_class() {
 //int main(){
@@ -182,9 +182,9 @@ int day13_practices_class() {
 	//	1.Point 클래스를 만들고, x, y 좌표를 저장하는 멤버 변수를 포함하세요.
 	//	2.operator+ 연산자를 오버로딩하여 두 Point 객체를 더할 수 있도록 하세요.
 	//	3.main 함수에서 두 개의 Point 객체를 더한 결과를 출력하세요.
-	Point p1(3, 4), p2(5, 6);
-	Point p3 = p1 + p2;
-	cout << "x좌표: " << p3.showX() << " | " << "y좌표: " << p3.showY() << endl;
+	//Point p1(3, 4), p2(5, 6);
+	//Point p3 = p1 + p2;
+	//cout << "x좌표: " << p3.showX() << " | " << "y좌표: " << p3.showY() << endl;
 
 	return 0;
 }
